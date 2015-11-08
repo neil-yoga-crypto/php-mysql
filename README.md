@@ -12,6 +12,7 @@ The only PDO MySQL class you need. Configured to support prepared and unprepared
 ```php
 require('db.php');
 Db::config('yourDatabasename','yourUsername','yourPassword');
+Db::getDb();
 ```
 ### Select a table
 ```php
